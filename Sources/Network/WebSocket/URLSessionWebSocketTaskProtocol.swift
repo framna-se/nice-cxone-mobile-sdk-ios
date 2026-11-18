@@ -15,11 +15,9 @@
 // periphery:ignore:all - false positive; it used for web socket communication
 
 import Foundation
-import Mockable
 
 // MARK: - URLSessionWebSocketTaskProtocol
 
-@Mockable
 protocol URLSessionWebSocketTaskProtocol: AnyObject, Sendable {
     var delegate: URLSessionTaskDelegate? { get set }
     

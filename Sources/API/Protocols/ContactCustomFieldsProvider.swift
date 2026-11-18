@@ -14,10 +14,8 @@
 //
 
 import Foundation
-import Mockable
 
 /// The provider for chat fields related properties and methods.
-@Mockable
 public protocol ContactCustomFieldsProvider: Sendable {
     
     /// Custom fields for current chat case.

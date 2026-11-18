@@ -14,10 +14,8 @@
 //
 
 import Foundation
-import Mockable
 
 /// The provider for thread related properties and methods.
-@Mockable
 public protocol ChatThreadListProvider: Sendable {
     
     /// The dynamic pre-chat survey element with title and custom fields.

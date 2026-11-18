@@ -15,9 +15,7 @@
 
 import CXoneGuideUtility
 import Foundation
-import Mockable
 
-@Mockable
 protocol DateProvider: Sendable {
 
     var now: Date { get }

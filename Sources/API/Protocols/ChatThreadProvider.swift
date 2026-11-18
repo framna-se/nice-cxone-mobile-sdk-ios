@@ -14,10 +14,8 @@
 //
 
 import Foundation
-import Mockable
 
 /// The provider for message related properties and methods.
-@Mockable
 public protocol ChatThreadProvider: Sendable {
     
     /// The delegate for the chat thread provider.

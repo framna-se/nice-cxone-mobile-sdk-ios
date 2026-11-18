@@ -14,9 +14,7 @@
 //
 
 import Foundation
-import Mockable
 
-@Mockable
 protocol SocketDelegate: AnyObject, Sendable {
     
     func didCloseConnection(unexpectedly: Bool)

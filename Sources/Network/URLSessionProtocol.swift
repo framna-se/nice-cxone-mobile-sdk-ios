@@ -14,11 +14,9 @@
 //
 
 import Foundation
-import Mockable
 
 // MARK: - URLSessionProtocol
 
-@Mockable
 protocol URLSessionProtocol: Sendable {
     /// Async load data from a remote URL specified by a URLRequest.
     ///

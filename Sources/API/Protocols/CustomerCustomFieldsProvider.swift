@@ -14,10 +14,8 @@
 //
 
 import Foundation
-import Mockable
 
 /// The provider for customer chat fields related properties and methods.
-@Mockable
 public protocol CustomerCustomFieldsProvider: Sendable {
     
     /// Returns the customer-scoped custom fields that persist across every thread this

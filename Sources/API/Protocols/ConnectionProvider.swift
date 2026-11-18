@@ -14,10 +14,8 @@
 //
 
 import Foundation
-import Mockable
 
 /// The provider for connection related properties and methods.
-@Mockable
 public protocol ConnectionProvider: Sendable {
     
     /// The current channel configuration for currently connected CXone session.

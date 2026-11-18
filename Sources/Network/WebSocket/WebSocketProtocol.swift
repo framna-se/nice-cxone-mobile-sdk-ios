@@ -14,9 +14,7 @@
 //
 
 import Foundation
-import Mockable
 
-@Mockable
 internal protocol WebSocketProtocol: Sendable {
     /// An async stream of messages received from the server.
     ///

@@ -14,9 +14,7 @@
 //
 
 import Foundation
-import Mockable
 
-@Mockable
 protocol SocketService: AnyObject, Sendable {
     
     var broadcaster: EventBroadcaster { get }

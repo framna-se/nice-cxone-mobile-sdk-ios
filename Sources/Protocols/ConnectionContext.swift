@@ -14,9 +14,7 @@
 //
 
 import Foundation
-import Mockable
 
-@Mockable
 protocol ConnectionContext: AnyObject, Sendable {
     
     var keychainService: any KeychainStorage { get }

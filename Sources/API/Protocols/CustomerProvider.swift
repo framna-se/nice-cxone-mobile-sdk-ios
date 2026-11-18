@@ -14,10 +14,8 @@
 //
 
 import Foundation
-import Mockable
 
 /// The provider for customer related properties and methods.
-@Mockable
 public protocol CustomerProvider: Sendable {
     
     /// The customer currently using the app.
